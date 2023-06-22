@@ -1,0 +1,35 @@
+body{
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    margin:0px;   
+   
+}
+
+.one{
+    background-color: #1F2937;
+    color:#f9faf8;
+    flex:4;
+}
+
+.two {
+    flex:3;
+
+}
+
+.three {
+    flex:3;
+    background-color:#E5E7EB
+}
+
+.four {
+    flex:2;}
+
+.footer {
+    flex:1;
+    background-color: #1F2937;
+    color: #F9FAf8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
