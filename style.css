@@ -6,11 +6,65 @@ body{
    
 }
 
+/*one*/
+
 .one{
     background-color: #1F2937;
     color:#f9faf8;
-    flex:4;
+    flex:2;
+    display:flex;
+    flex-direction:column;
+    padding:15px 300px 0px 300px;
 }
+
+
+.header{
+    font-size:30px;
+    display:flex;
+    gap:30px;
+    font-size:20px;
+    align-items:center;
+    
+}
+
+.actualheader {
+    margin-right:auto;
+    font-size:40px;
+    font-weight:bold;
+}
+
+
+
+.awesome{
+    height:200px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:70px;
+}
+
+.rightside{
+    background-color: grey;
+    min-width:600px;
+    min-height:200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+li { 
+    list-style: none;
+}
+
+.websiteisa{
+    font-weight: bold;
+    font-size:60px;
+}
+
+
+
+
+
 
 .two {
     flex:3;
