@@ -115,16 +115,20 @@ body{
     align-items:center;
     gap:40px;
     justify-content:center;
-    
-
 }
 
-
+.randominfo {
+    margin-bottom:70px;
+    margin-top:-70px;
+    font-size:60px;
+    color:black;
+    font-weight:bold;
+}
 
 .boxes{
     
     display:flex;
-    gap:40px;
+    gap:90px;
     
 }
 
@@ -133,8 +137,43 @@ body{
     height:200px;
     border-width: 2px;
   border-color: red;
-  border-style: solid;
+  border-style: none;
   border-radius:25px;
+  display:flex;
+  overflow: hidden;
+  justify-content:center;
+  align-items:center;
+}
+
+.boxwithtext{
+    width:200px;
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.image2 {
+    width:200px;
+    height:200px;
+}
+
+.image3{
+    width:230px;
+    height:230px;
+}
+
+.image4{
+    width:270px;
+    height:270px;
+}
+
+p{
+    font-weight:bold;
+    font-size:25px;
+    padding-top:30px;
+    
 }
 
 
